@@ -25,11 +25,10 @@ public class MainActivity extends AppCompatActivity {
         rnd = (int) (101 * Math.random()) % 3 + 1;
         btn.setText("click for image: " + rnd);
         if (rnd == 1) {
-            iv.setImageResource(R.drawable.tenniscourt1);
-        } else if (rnd == 2) {
-            iv.setImageResource(R.drawable.tenniscourt2);
-        } else {
-            iv.setImageResource(R.drawable.tenniscourt3);
-        }
+            iv.setImageResource(R.drawable.tenniscourt1); }
+        else if (rnd == 2) {
+            iv.setImageResource(R.drawable.tenniscourt2); }
+        else {
+            iv.setImageResource(R.drawable.tenniscourt3); }
     }
 }
